@@ -1,4 +1,4 @@
-import { useRouter } from "next/navigationr";
+import { useRouter } from "next/navigation";
 import i18n from "./../index";
 import { Dictionary, I18N } from "../types";
 import useSelectedLanguage from "./use-selected-language";

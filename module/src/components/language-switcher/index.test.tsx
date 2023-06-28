@@ -24,7 +24,7 @@ jest.mock("../../../../i18n/index", () => {
   };
 });
 
-jest.mock("next/navigationr", () => ({
+jest.mock("next/navigation", () => ({
   useRouter() {
     return {
       push: jest.fn(),
@@ -35,7 +35,7 @@ jest.mock("next/navigationr", () => ({
     };
   },
 }));
-const useRouter = jest.spyOn(require("next/navigationr"), "useRouter");
+const useRouter = jest.spyOn(require("next/navigation"), "useRouter");
 const push = jest.fn();
 useRouter.mockImplementation(() => ({ push }));
 

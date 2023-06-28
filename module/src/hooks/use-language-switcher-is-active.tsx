@@ -1,5 +1,5 @@
 import React, { ReactNode, useState, useEffect } from "react";
-import { useRouter } from "next/navigationr";
+import { useRouter } from "next/navigation";
 import i18n from "../index";
 import { I18N } from "../types";
 

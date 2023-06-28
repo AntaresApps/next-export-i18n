@@ -1,4 +1,4 @@
-import { useRouter } from "next/navigationr";
+import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import i18n from "./../index";
 import { I18N } from "../types";

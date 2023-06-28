@@ -1,5 +1,5 @@
 import React, { ReactNode } from "react";
-import { useRouter } from "next/navigationr";
+import { useRouter } from "next/navigation";
 import useLanguageQuery from "../../hooks/use-language-query";
 import useLanguageSwitcherIsActive from "../../hooks/use-language-switcher-is-active";
 

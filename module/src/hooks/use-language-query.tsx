@@ -1,4 +1,4 @@
-import { useRouter } from "next/navigationr";
+import { useRouter } from "next/navigation";
 import { ParsedUrlQueryInput, ParsedUrlQuery } from "node:querystring";
 import { useEffect, useState } from "react";
 import useSelectedLanguage from "./use-selected-language";

@@ -1,11 +1,11 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 
-var router = require('next/navigationr');
+var router = require('next/navigation');
 var React = require('react');
 var I18N = require('./../../i18n/index.js');
 var Mustache = require('mustache');
 
-function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
+function _interopDefaultLegacy(e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 
 var React__default = /*#__PURE__*/_interopDefaultLegacy(React);
 var Mustache__default = /*#__PURE__*/_interopDefaultLegacy(Mustache);
@@ -222,10 +222,12 @@ const LanguageSwitcher = ({ lang, children, shallow = false }) => {
         });
     }
     else {
-        return (React__default["default"].createElement("span", { role: "button", "aria-label": `set language to ${lang}`, "data-language-switcher": "true", "data-is-current": languageSwitcherIsActive, onClick: () => {
+        return (React__default["default"].createElement("span", {
+            role: "button", "aria-label": `set language to ${lang}`, "data-language-switcher": "true", "data-is-current": languageSwitcherIsActive, onClick: () => {
                 // set the language
                 updateRouter();
-            } }, children));
+            }
+        }, children));
     }
 };
 
